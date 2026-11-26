@@ -1,0 +1,54 @@
+{
+    "height": 26,
+    "layer": "top",
+
+    "modules-left": ["workspaces", "layout"],
+    "modules-center": ["window"],
+    "modules-right": [
+        "cpu",
+        "memory",
+        "custom/audio",
+        "clock#time",
+        "custom/power"
+    ],
+
+    "workspaces": {
+        "on-click": "activate"
+    },
+
+    "window": {
+        "format": "{}",
+        "max-length": 300
+    },
+
+    "cpu": {
+        "format": " {usage}%",
+        "interval": 2
+    },
+
+    "memory": {
+        "format": " {usage}%",
+        "interval": 5
+    },
+
+    "clock#time": {
+        "format": " %H:%M",
+        "format-alt": " %a %d %b"
+    },
+
+    "custom/audio": {
+        "exec": "~/.config/mangobar/audio.sh",
+        "interval": 1,
+        "on-click": "~/.config/mangobar/audio.sh mute",
+        "on-click-right": "~/.config/mangobar/audio.sh next-sink",
+        "on-scroll-up": "~/.config/mangobar/audio.sh up",
+        "on-scroll-down": "~/.config/mangobar/audio.sh down",
+        "tooltip": false
+    },
+
+    "custom/power": {
+        "format": "⏻",
+        "tooltip": false,
+        "on-click": "~/.config/mangobar/power-menu.sh"
+    }
+}

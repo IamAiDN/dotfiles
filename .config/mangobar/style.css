@@ -1,0 +1,101 @@
+@define-color bar-bg #242933;
+@define-color module-bg #2e3440;
+@define-color hover-bg #3b4252;
+@define-color border-col #434c5e;
+@define-color fg #e5e9f0;
+@define-color muted #4c566a;
+@define-color active-bg #88c0d0;
+@define-color active-fg #242933;
+@define-color urgent-bg #bf616a;
+
+/* Global defaults */
+* {
+    font-family: "CaskaydiaCove Nerd Font", "Noto Color Emoji";
+    font-size: 11px;
+    font-weight: 500;
+    color: @fg;
+    background-color: @bar-bg;
+    margin-top: 4px;
+    margin-left: 6px;
+    margin-right: 6px;
+}
+
+/* Tags (workspaces) */
+#tags {
+    background-color: @module-bg;
+    color: @fg;
+    padding-left: 9px;
+    padding-right: 9px;
+    margin-left: 3px;
+    margin-right: 3px;
+    border-radius: 6px;
+}
+
+#tags.empty {
+    color: @muted;
+}
+
+#tags.occupied {
+    color: @fg;
+}
+
+#tags.active {
+    background-color: @active-bg;
+    color: @active-fg;
+    font-weight: bold;
+}
+
+#tags.urgent {
+    background-color: @urgent-bg;
+    color: #ffffff;
+}
+
+#tags:hover {
+    background-color: @hover-bg;
+}
+
+/* Standard & custom pill modules */
+#layout,
+#window,
+#cpu,
+#memory,
+#ram,
+#mem,
+#clock,
+#custom-audio {
+    background-color: @module-bg;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 3px;
+    margin-right: 3px;
+    border-radius: 6px;
+}
+
+/* Subtle distinction for the center window pill */
+#window {
+    color: #d8dee9;
+    border: 1px solid @border-col;
+}
+
+/* Hover states */
+#layout:hover,
+#clock:hover,
+#custom-audio:hover {
+    background-color: @hover-bg;
+}
+
+/* Power button */
+#custom-power {
+    background-color: @module-bg;
+    color: @urgent-bg;
+    padding-left: 10px;
+    padding-right: 12px;
+    margin-left: 3px;
+    margin-right: 3px;
+    border-radius: 6px;
+}
+
+#custom-power:hover {
+    background-color: @urgent-bg;
+    color: @bar-bg;
+}
