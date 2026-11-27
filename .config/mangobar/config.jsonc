@@ -7,6 +7,7 @@
     "modules-right": [
         "cpu",
         "memory",
+        "custom/headset",
         "custom/audio",
         "clock#time",
         "custom/power"
@@ -50,5 +51,11 @@
         "format": "⏻",
         "tooltip": false,
         "on-click": "~/.config/mangobar/power-menu.sh"
+    },
+
+    "custom/headset": {
+      "exec": "~/.config/mangobar/headset-battery.sh",
+      "interval": 15,
+      "tooltip": false
     }
 }
