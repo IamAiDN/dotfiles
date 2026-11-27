@@ -9,7 +9,7 @@
 ![Theme](https://img.shields.io/badge/Palette-Nord%20%2F%20OneNord-88C0D0?style=for-the-badge)
 
 <!-- Drop a screenshot of your desktop here! -->
-<img width="1919" height="1077" alt="image" src="https://github.com/user-attachments/assets/58fda4ee-6139-41c3-bfb0-b6accfa1b487" />
+<img width="1919" height="1080" alt="image" src="https://github.com/user-attachments/assets/8b3cabf1-df91-4fec-954c-696e05e83bc1" />
 </div>
 
 ---
