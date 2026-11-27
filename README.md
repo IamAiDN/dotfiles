@@ -20,6 +20,7 @@
 | :--- | :--- | :--- |
 | **Compositor** | [`mango`](.config/mango) | Modular setup (`config`, `appearance`, `input`, `keybinds`, `monitors`) |
 | **Status Bar** | [`mangobar`](.config/mangobar) | Custom Nord bar with interactive audio controls, power menu, & wireless headset battery script |
+| **Wallpaper** | `swaybg` | Lightweight Wayland background daemon spawned via `mango` (`exec_once`) |
 | **Terminal** | [`kitty`](.config/kitty) | GPU-accelerated terminal styling & font configuration |
 | **App Launcher** | [`fuzzel`](.config/fuzzel) | Fast, native Wayland application launcher |
 | **Notifications** | [`dunst`](.config/dunst) | Minimalist notification daemon rules & Nord styling |
