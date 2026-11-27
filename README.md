@@ -13,7 +13,6 @@ Personal Arch Linux Wayland configuration files, symlinked from `~/dotfiles` int
 | **Editor** | [`zed`](.config/zed) | Zed editor settings & keybindings |
 | **Qt Theming** | [`qt6ct`](.config/qt6ct) | Qt6 application appearance & palette settings |
 | **Wayland Portals** | [`xdg-desktop-portal`](.config/xdg-desktop-portal) & [`xdg-desktop-portal-wlr`](.config/xdg-desktop-portal-wlr) | Screen sharing, file pickers, and wlroots portal integration |
-| **Wayland Flags** | [`discord-flags.conf`](.config/discord-flags.conf) & [`electron-flags.conf`](.config/electron-flags.conf) | Native Wayland / Ozone flags for Electron apps and Discord |
 
 ## Structure
 
