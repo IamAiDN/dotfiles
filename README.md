@@ -1,6 +1,6 @@
 <div align="center">
 
-# ❄️ Arch + Mango Wayland Dotfiles
+# 🥭 Arch + Mango Wayland Dotfiles
 
 **A cohesive, Nord-inspired Wayland desktop environment tailored for Arch Linux.**
 
